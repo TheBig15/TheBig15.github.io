@@ -1,0 +1,14 @@
+* { margin: 0;
+    padding: 0;}
+#trio ul {list-style-type: none;
+        margin-left: 1.35em;
+        margin-bottom: 1.40em;}
+#trio ul li {width: 175px;
+            margin-bottom: .75em;
+            border: 2.25px solid #008000;}
+#trio ul li a {display: block;
+               padding: .25em 0 .25em 1em;
+               text-decoration: none;
+               font-weight: bolder;
+               color: #adff2f;}
+#trio ul li a.wearehere { background-color: #ffc0cb;}
