@@ -13,5 +13,6 @@
                color: #008000;}
 #trio ul li a.wearehere {background-color: #ffc0cb;}
 #trio ul ul li {position: absolute;
-                          left: 100%;
-                          top: 0}
+                left: 100%;
+                top: 0;
+                display: block;}
