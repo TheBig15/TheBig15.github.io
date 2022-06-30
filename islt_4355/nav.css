@@ -20,3 +20,4 @@
 #trio ul ul {display: none;
              position: absolute;
              top: 100%;}
+#trio ul li:hover > ul {display: block;}
