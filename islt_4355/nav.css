@@ -14,7 +14,6 @@
 #trio ul li a.wearehere {background-color: #ffc0cb;}
 #trio ul ul li {position: absolute;
                 left: 100%;
-                top: 0;
                 display: block;
                 float: none;}
 #trio ul ul {display: none;
