@@ -1,6 +1,6 @@
 * { margin: 0;
     padding: 0;}
-#trio ul {list-style: none;
+#trio ul {list-style-type: none;
           position: relative;
         margin-left: 1.35em;
         margin-bottom: 1.40em;}
