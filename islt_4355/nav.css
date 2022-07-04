@@ -1,6 +1,8 @@
 * { margin: 0;
     padding: 0;}
+a {font-weight: bold;}
 #trio ul {list-style-type: none;
+          display: inline-flex;
           position: relative;
         margin-left: 1.35em;
         margin-bottom: 1.40em;}

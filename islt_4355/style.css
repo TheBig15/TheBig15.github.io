@@ -1,3 +1,11 @@
 .drawer {color: #33cc99;}
 h2 {font-stretch: semi-expanded;}
 h3 {text-rendering: optimizeSpeed;}
+main p:first-child::first-letter {font-style: italic;}
+p .indent {text-indent: hanging .75 em;}
+body {border: none;
+      margin: 1em auto;
+      width: 650px;
+font-family: Helvetica, Verdana, sans-serif}
+footer {margin-top: 1.25em;
+        font-size: 70%}
