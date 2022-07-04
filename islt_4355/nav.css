@@ -28,8 +28,7 @@ a {font-weight: bold;}
                    display: block;
                    clear: both;}
     nav ul>li ul {position: absolute;
-                  top: 0;
-                  left: 100%;
+                  top: 100%;
                   display: none;}
                 
                 /*special hover to display the drop-down*/
