@@ -22,7 +22,7 @@ a {font-weight: bold;}
 #trio ul ul {display: none;
              float: none;
              position: absolute;
-             left: 100%;}
+             top: 100%;}
 #trio ul li:hover > ul {display: block;}
 #trio > ul::after {content: "";
                    display: block;
