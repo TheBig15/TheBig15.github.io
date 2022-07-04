@@ -32,4 +32,5 @@ a {font-weight: bold;}
                   display: none;}
                 
                 /*special hover to display the drop-down*/
-                nav>ul>li:hover>ul{display: block;}
+                nav>ul>li:hover>ul{display: block;
+                                   top: 100%;}
