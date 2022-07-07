@@ -15,7 +15,7 @@ a {font-weight: bold;}
                font-weight: bold;
                color: #008000;}
 #trio ul li a.wearehere {background-color: #ffc0cb;}
-#trio ul ul li {position: absolute;
+#trio ul ul li {position: relative;
                 top: 100%;
                 display: block;
                 float: none;}
