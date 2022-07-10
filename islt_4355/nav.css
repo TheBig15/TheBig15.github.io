@@ -3,9 +3,12 @@
 a {font-weight: bold;}
 #trio ul {list-style-type: none;
           display: inline-flex;
+          flex-wrap: wrap;
           position: relative;
         margin-left: 1.35em;
         margin-bottom: 1.40em;}
+#trio ul {align-items: center;
+          justify-items: center;}
 #trio ul li {width: 175px;
             margin-bottom: .75em;
             border: 2.25px solid #008000;}
@@ -17,6 +20,7 @@ a {font-weight: bold;}
 #trio ul li a.wearehere {background-color: #ffc0cb;}
 #trio ul ul li {top: 100%;
                 display: block;
+                border-color: #ffffff;
                 float: none;}
 #trio ul ul {display: none;
              float: none;
