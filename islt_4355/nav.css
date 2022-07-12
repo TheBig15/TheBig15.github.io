@@ -1,39 +1,40 @@
 * { margin: 0;
     padding: 0;}
 a {font-weight: bold;}
-#trio ul {list-style-type: none;
+.menu ul {list-style-type: none;
           display: inline-flex;
           flex-wrap: wrap;
           position: relative;
         margin-left: 1.35em;
         margin-bottom: 1.40em;}
-#trio ul {align-items: center;
+.menu ul {align-items: center;
           justify-items: center;}
-#trio ul li {width: 175px;
-            margin-bottom: .75em;
-            border: 2.25px solid #008000;}
-#trio ul li a {display: block;
-               padding: .25em 0 .25em 1em;
+
+.header .menu ul li { display: none; }
+
+            .menu ul li a {display: block;
+               padding: 0;
                text-decoration: none;
                font-weight: bold;
-               color: #008000;}
-#trio ul li a.wearehere {background-color: #ffc0cb;}
-#trio ul ul li {top: 100%;
+               color: #fff;}
+.header .menu ul li a .wearehere {background-color: #ffc0cb;}
+.header .menu ul ul li a {top: 100%;
                 display: block;
                 border-color: #ffffff;
                 float: none;}
-#trio ul ul {display: none;
+.header .menu ul ul {display: none;
              float: none;
              position: absolute;
              top: 100%;}
-#trio ul li:hover > ul {display: block;}
-#trio > ul::after {content: "";
+.header .menu ul li:hover > ul {display: block;}
+.header .menu > ul::after {content: "";
                    display: block;
                    clear: both;}
-    nav ul>li ul {position: absolute;
+.header .menu ul>li ul {position: absolute;
                   top: 100%;
                   display: none;}
                 
-                /*special hover to display the drop-down*/
-                nav>ul>li:hover>ul{display: block;
+  /*special hover to display the drop-down*/
+.header .menu ul>li:hover>ul{display: block;
                                    top: 100%;}
+                

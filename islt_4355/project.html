@@ -2,6 +2,7 @@
 <html lang="en-US">
 <head>
                <meta charset="utf-8">
+               <meta name="viewport" content="width=device-width,initial-scale=1">
                <title>Projects</title>
         <!--
             *****************************************************************************
@@ -14,35 +15,43 @@
             
             School/Term:  University of Missouri, Summer 2022
             
-            Developed: July 3rd, 2022
+            Developed: July 11th, 2022
             
-            Tested:  July 3rd, 2022; Passed on Microsoft Edge and Mozilla Firefox browsers.
+            Tested:  July 11th, 2022; Passed on Microsoft Edge and Mozilla Firefox browsers.
             
             ******************************************************************************
             -->
+<link rel="stylesheet" href="menu.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="nav.css">
 </head>
 <body>
-    <nav id="trio">
-        <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a class="wearehere" href="#projects.html">Projects</a></li>
-            <ul>
-            <li><a href="#link"></a>Link 1</li>
-            <li><a href="#link"></a>Link 2</li>
-            <li><a href="#link"></a>Link 3</li>
-            </ul>
-        </li>
-        </ul>
-    </nav>
+    <header class="header">
+    <a href="/" class="logo">I Can</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+                        <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="wearehere" href="about.html">About</a></li>
+                        <li><a href="project.html">Projects</a>
+                            <ul class="menu">
+                            <li><a href="#link"></a>Link 1</li>
+                            <li><a href="#link"></a>Link 2</li>
+                            <li><a href="#link"></a>Link 3</li>
+                            </ul>
+                        </li>
+                        <li><a href="reflection.html"></a>Reflection</li>
+                        <li><a href= "#contact">Contact</a></li>
+                        </ul>
+                    
+        </header>
     <h2> </h2>
     <h3> </h3>
     <blockquote> "The whole purpose of education is to turn mirrors into windows."
         <em>-Syndney J. Harris</em></blockquote>
     <main> </main>
-<footer> Del Bowles. dqbz72@mail.missouri.edu
-        Del Quentin Bowles Copyrighted 2022. </footer>
+<footer>      Del Bowles
+<br />        dqbz72@mail.missouri.edu
+<br />        &copy; Copyrighted 2022. </footer>
 </body>
 </html>

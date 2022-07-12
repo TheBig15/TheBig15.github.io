@@ -5,7 +5,7 @@
 <head>
 
             <meta charset="utf-8">
-
+            <meta name="viewport" content="width=device-width,initial-scale=1">
             <title>Home</title>
             <!--
             *****************************************************************************
@@ -18,32 +18,38 @@
             
             School/Term:  University of Missouri, Summer 2022
             
-            Developed: July 3rd, 2022
+            Developed: July 11th, 2022
             
-            Tested:  July 3rd, 2022; Passed on Microsoft Edge and Mozilla Firefox browsers.
+            Tested:  July 11th, 2022; Passed on Microsoft Edge and Mozilla Firefox browsers.
             
             ******************************************************************************
             -->
+<link rel="stylesheet" href="menu.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="nav.css">
 </head>
 <body>
-    <nav id="trio">
-        <ul>
-        <li><a class="wearehere" href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#project.html">Projects</a>
-            <ul>
-            <li><a href="#link"></a>Link 1</li>
-            <li><a href="#link"></a>Link 2</li>
-            <li><a href="#link"></a>Link 3</li>
-            </ul>
-        </li>
-        <li><a href="reflection.html"></a>Reflection</li>
-        <li><a href= "#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <header class="header">
+    <a href="/" class="logo">I Can</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+                        <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="wearehere" href="about.html">About</a></li>
+                        <li><a href="project.html">Projects</a>
+                            <ul class="menu">
+                            <li><a href="#link"></a>Link 1</li>
+                            <li><a href="#link"></a>Link 2</li>
+                            <li><a href="#link"></a>Link 3</li>
+                            </ul>
+                        </li>
+                        <li><a href="reflection.html"></a>Reflection</li>
+                        <li><a href= "#contact">Contact</a></li>
+                        </ul>
+                    
+        </header>
 <header> <h1> </h1> </header>
+<br><br><br><br><br><br><br>
 <h2> Del Quentin Bowles </h2>
 <h3> Hello and welcome! The purpose of my website is to show you my skills, elicit my
     qualifications, share my work history, and convey my professional path.</h3>
@@ -62,8 +68,9 @@ job is to, one day, become a <em> College Professor </em> that teaches <strong> 
 <br /> Although this is my professional website, I hope the experience leaves you entertained.
 </p>
 </main>
-<footer> Del Bowles. dqbz72@mail.missouri.edu 
-    <br /> Del Quentin Bowles Copyrighted 2022. </footer>
+<footer> Del Bowles
+    <br />         dqbz72@mail.missouri.edu
+    <br />         &copy; Copyright 2022 </footer>
 <nav> <!--Project/Experiences link (left) Contact Page link (right)--> </nav>
 </body>
 
