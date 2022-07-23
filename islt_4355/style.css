@@ -1,7 +1,7 @@
 .drawer {color: #33cc99;}
 h2 {font-stretch: semi-expanded;}
 h3 {text-rendering: optimizeSpeed;}
-p {font-stretch: semi-expanded}
+p {font-stretch: semi-expanded;}
 header {align-content: center;}
 a #Resume {text-decoration-style: none;
            text-align: center;}
@@ -11,11 +11,22 @@ body {border: none;
       height: 100%;
 font-family: Helvetica, Verdana, sans-serif;}
 
-.s1 {text-align: right;}
-
+body {display: grid;
+      grid-template-columns: 50% 25% 25%;
+      grid-template-rows: 200px 100px 150px 300px 300px 300px 300px 300px 300px 300px;}
+      
+#s1 {grid-row: 1 / 2; grid-column: 2 / 4;}
+#s2 {grid-row: 2 / 2; grid-column: 2 / 3;}
+#s3 {grid-row: 2 / 2; grid-column: 3 / 4;}
+#s4 {grid-row: 3 / 3; grid-column: 2 / 4;}
+#s5 {grid-row: 4 / 5; grid-column: 1 / 4;}
+#s6 {grid-row: 6 / 7; grid-column: 1 / 4;}
+#s7 {grid-row: 8 / 9; grid-column: 1 / 4;}
+#s8 {grid-row: 10 / 11; grid-column: 1 / 4;}
 
 footer {margin-top: 1.25em;
         font-size: 70%;
+        text-align: bottom;
         text-align: right;}
 
 
