@@ -1,0 +1,50 @@
+/* "All Glory comes from Daring to Begin." -Eugene F. Ware */
+li {
+  color: green;
+  display: inline;
+  text-align: center;
+  padding: 15px 15px 15px 15px;
+}
+
+blockquote{font-family: Arial, Helvetica, sans-serif;
+           font-size: 14 px;}
+
+.container {display: grid;
+            grid-template-columns: 30% 70%;
+            grid-template-rows: 15% 15% 60% 10%;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+            "Header Header"
+            "Navigation Navigation"
+            "Image Content"
+            "Footer Footer";}
+/* header styling*/
+.Header { grid-area: Header; 
+    color: violet;
+    text-size-adjust: 70%;
+    text-align: center;}
+
+.Navigation {grid-area: Navigation; 
+             background:teal;
+             padding: 15px 15px 15px 15px;
+             font-size: 150%;
+             text-align: center;}
+
+.Image {grid-area: Image;
+        padding: 5%;}
+
+.Content {grid-area: Content; 
+          margin-left: 2em;
+          font-size: 18px;}
+
+.Footer {grid-area: Footer;
+         background-color: lightgrey;
+         text-align: center;
+         border: 5px solid teal;
+         padding: 1%;
+         margin: auto;}
+
+
+html, body, .container {height: 100%;
+                        margin: 0;}
