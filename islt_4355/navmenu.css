@@ -1,10 +1,8 @@
 /* "All Glory comes from Daring to Begin." -Eugene F. Ware */
-li {
-  color: green;
-  display: inline;
-  text-align: center;
-  padding: 15px 15px 15px 15px;
-}
+li {color: green;
+    display: inline;
+    text-align: }
+    padding: {15px 15px 15px 15px;}
 
 blockquote{font-family: Arial, Helvetica, sans-serif;
            font-size: 14 px;}
@@ -19,29 +17,32 @@ blockquote{font-family: Arial, Helvetica, sans-serif;
             "Navigation Navigation"
             "Image Content"
             "Footer Footer";}
+/* Name Styling */
+h1 {text-shadow: beige;}
+
 /* header styling*/
 .Header { grid-area: Header; 
-    color: violet;
+    color: green;
     text-size-adjust: 70%;
     text-align: center;}
 
 .Navigation {grid-area: Navigation; 
-             background:teal;
+             background:slateblue;
              padding: 15px 15px 15px 15px;
-             font-size: 150%;
+             font-size: 155%;
              text-align: center;}
 
 .Image {grid-area: Image;
         padding: 5%;}
 
-.Content {grid-area: Content; 
+.Content {grid-area: Content;
           margin-left: 2em;
           font-size: 18px;}
 
 .Footer {grid-area: Footer;
          background-color: lightgrey;
          text-align: center;
-         border: 5px solid teal;
+         border: 5px dotted Green;
          padding: 1%;
          margin: auto;}
 
