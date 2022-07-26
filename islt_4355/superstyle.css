@@ -1,4 +1,6 @@
 /* "All Glory comes from Daring to Begin." -Eugene F. Ware */
+
+
 li {color: green;
     display: inline-flex;
     text-align: center;
@@ -25,15 +27,16 @@ ul {float: left;}
 ul ul li {display: none;}
 
 a:link::after {color:aqua;}
+
 /* header styling*/
 .Header { grid-area: Header; 
-    color: green;
+    color:green;
     text-size-adjust: 70%;
     text-align: center;}
 
 .Navigation {grid-area: Navigation; 
-             background:green;
-             padding: 30px 15px 30px 15px;
+             background:lightgreen;
+             padding: 15px 15px 15px 15px;
              font-size: 155%;
              text-align: center;}
 .navbar {display: inline-block;
@@ -53,6 +56,8 @@ a:link::after {color:aqua;}
          border: 5px dotted Green;
          padding: 1%;
          margin: auto;}
+
+
 
 
 html, body, .container {height: 100%;
