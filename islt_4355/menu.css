@@ -84,17 +84,13 @@ a {color: green;}
     blockquote{font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;}
 
-.container {display: grid;
+.Content {display: grid;
          grid-template-columns: 30% 70%;
          grid-template-rows: 15% 15% 60% 10%;
          gap: 0px 0px;
-         grid-auto-flow: row;
-         grid-template-areas:
-         "Header Header"
-         "Navigation Navigation"
-         "Image Content"
-         "Footer Footer";}
+         grid-auto-flow: row;}
 
+/*#degrees {grid-row: 3 / 4; grid-column: 2 / 3;} */
 
 /* Name Styling */
 
@@ -121,12 +117,12 @@ a:link::after {color:aqua;}
 .Image {grid-area: Image;
      float: left;
      padding: 5%;}
-
+/*
 .Content {grid-area: Content;
        margin-left: 6em;
-       font-size: 18px;}
+       font-size: 18px;}*/
 
-.Footer {grid-area: Footer;
+footer {grid-area: Footer;
       background-color: lightgrey;
       text-align: center;
       border: 5px dotted Green;
