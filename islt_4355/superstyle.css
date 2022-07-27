@@ -58,7 +58,11 @@ a:link::after {color:aqua;}
          margin: auto;}
 
 
+/* Image Styling */
+img { width: "70%"; height: "auto"}
 
+/* Resume Video Styling */
+.resumevideo { width: 20%; height: "auto"}
 
 html, body, .container {height: 100%;
                         margin: 0;}

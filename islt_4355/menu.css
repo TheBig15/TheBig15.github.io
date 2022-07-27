@@ -21,6 +21,8 @@ a {color: green;}
              border-right: 1px dotted black;
              text-decoration: none;}
 
+.header ul ol a{display: hidden;}
+
 .header ul a:hover {background-color: #90ee90;}
 
 
@@ -116,7 +118,7 @@ a:link::after {color:aqua;}
 .navbar {display: inline-block;
       justify-content: center;}
 .Image {grid-area: Image;
-     display:contents;
+     display: /* href="WelcomePicture.jpg" */ WelcomePicture.jpg;
      float: left;
      padding: 5%;}
 
@@ -143,4 +145,4 @@ html, body, .container {height: 100%;
                                            float: right;
                                            max-height: none;}
                             .header .menu-icon {display: none;}
-                          }
+                            }
