@@ -1,3 +1,11 @@
+@font-face { 
+
+    font-family: 'Uchen', serif; /*this is where we give our font a name so we can use it!*/
+    
+    src: url("https://fonts.googleapis.com/css2?family=Uchen&display=swap"); /*remember this is how we link to files in CSS!*/
+    
+    }
+
 body {margin: 0px;
       font-family: Helvetica, Verdana, sans-serif;
       background-color:#fff;}
@@ -99,6 +107,8 @@ body {display: grid;
          grid-auto-flow: row;
 }   
 
+#degrees {font-family: Uchen, serif; }
+
 #degrees {
     
     grid-column-start: 2;
@@ -158,6 +168,11 @@ footer {
 html, body, .Content {height: 100%;
                      margin: 0;}
 
+                     
+
+
+
+
 @media (min-width: 768px) { .header li {float: left;}
                             .header li a {padding: 20px 30px;}
                             .header .menu {clear: none;
@@ -165,3 +180,6 @@ html, body, .Content {height: 100%;
                                            max-height: none;}
                             .header .menu-icon {display: none;}
                             }
+
+
+
