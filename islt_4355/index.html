@@ -8,9 +8,7 @@
             <meta name="viewport" content="width=device-width,initial-scale=1">
             <title>Home</title>
             <link rel="shortcut icon" type="image/png" href="../ISLT 4355-7355/favicon.png">
-            <link rel="phone icon" type="image/png" href="../ISLT 4355-7355/phoneicon.png">
-            <link rel="email icon" type="image/png" href="../ISLT 4355-7355/emailicon.png">
-            <link rel="headshot" type="image/jpg" href="../ISLT 4355-7355/WelcomePicture.jpg">
+            
             <!--
             *****************************************************************************
 
@@ -28,10 +26,17 @@
             
             ******************************************************************************
             -->
+         <!--   <link rel="teleicon" type="image/png" href="../ISLT 4355-7355/phoneicon.png">
+            <link rel="emailicon" type="image/png" href="../ISLT 4355-7355/emailicon.png">
+            <link rel="headshot" type="image/jpg" href="../ISLT 4355-7355/WelcomePicture.jpg">
+        -->
 <!--<link rel="stylesheet" href="menu.css">-->
 <link rel="stylesheet" href="style.css">
 <!--<link rel="stylesheet" href="superstyle.css">-->
 <!--<link rel="stylesheet" href="nav.css">-->
+
+
+    
 </head>
 <body>
     <header class="header">
@@ -109,7 +114,7 @@
     <div id="indexheadshot"><img src="../ISLT 4355-7355/WelcomePicture.jpg" alt="Headshot"></div>
 
     
-    <blockquote id="indexblockquote"> "The whole purpose of education is to turn mirrors into windows."<em>-Syndney J. Harris</em></blockquote>
+    <blockquote id="indexblockquote"> "The whole purpose of education is to turn mirrors<br /><br> into windows."<em>-Syndney J. Harris</em></blockquote>
     
 
     
@@ -129,14 +134,39 @@ acquiring my Master's of Science, I plan on working at the Missouri State Univer
 </p>
 
 </div>
+<style>
+    /* HOVER ENLARGE EFFECT ON FOOTER ICONS */
 
+    .pic {
+      width:50px;
+      height:50px;
+}
+
+.bigpic {
+      position: absolute;
+      width: 0px;
+      -webkit-transition:width 0.3s linear 0s;
+      transition:width 0.3s linear 0s;
+      z-index:10;
+}
+
+.pic:hover + .bigpic{
+      width: 200px;
+}
+</style>
 
     <footer id="indexfooter">
-        <p>Website creator: Del Bowles   &copy;2022 <a target="_blank" href="https://icons8.com/icon/go4ORlPu42TR/email">Email</a>
-            icon by <a target="_blank" href="https://icons8.com">Icons8</a> <img src="../ISLT 4355-7355/emailicon.png">
+        Website creator: Del Bowles   &copy;2022 <a target="_blank" href="https://icons8.com/icon/go4ORlPu42TR/email">Email</a>
+            icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<img class="pic" src="../ISLT 4355-7355/emailicon.png">
+<img class="bigpic" src="../ISLT 4355-7355/emailicon.png">
+
             <a href="mailto:itisrathergood@gmail.com">itisrathergood@gmail.com</a>
-            <img src="../ISLT 4355-7355/phoneicon.png"> Phone #1-800-365-4295
-       </p>
+            
+<img class="pic" src="../ISLT 4355-7355/phoneicon.png">
+<img class="bigpic" src="../ISLT 4355-7355/phoneicon.png">Phone #1-800-365-4295
+            
+        
     </footer>
 </div>
 
