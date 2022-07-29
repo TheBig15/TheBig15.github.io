@@ -181,38 +181,8 @@ footer {
       grid-row: 6 / 6;
       margin: 0;
       font-size: 20px;
-      background-image:url(islt_4355/footer-background.png);
+      background-image: url("https://www.jopaz.com.au/wp-content/uploads/2017/08/footer-background.jpg");
      }
-
-     /* HOVER ENLARGE EFFECT ON FOOTER ICONS */
-
-     .pic {
-      width:50px;
-      height:50px;
-}
-
-.picbig {
-      position: absolute;
-      width: 0px;
-      -webkit-transition:width 0.3s linear 0s;
-      transition:width 0.3s linear 0s;
-      z-index:10;
-}
-
-.pic:hover + .picbig{
-      width: 200px;
-}
-
-     /*
-Add a hover effect to enlarge both footer icons slightly (email and phone) using your style.css file
-
-Apply your animation to the footer in your index/home.html file
-
-Upload your index/home.html and style.css files to your GitHub account
-
-Submit your HomePage URL*/
-
-      
 
     /* img {
       size: 10px 10px;
