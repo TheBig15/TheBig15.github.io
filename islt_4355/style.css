@@ -202,7 +202,14 @@ footer {grid-column: 1 / 6;
    top: 0;}
 
 
-
+/* MOBILE DEVICES */
+@media (min-width: 768px) { .header li {float: left;}
+                            .header li a {padding: 20px 30px;}
+                            .header .menu {clear: none;
+                                           float: right;
+                                           max-height: none;}
+                            .header .menu-icon {display: none;}
+                            }
 
   /* header styling
   .Header {grid-area: Header; 
@@ -231,17 +238,6 @@ footer {grid-column: 1 / 6;
 
 
 
-/* Create a @media query for print for your about.html page, include the following:
-a. Your Name (h1)
-b. Your description about yourself (p)
-d. Your Education Details (ul or ol)
-e. Your Quote (blockquote)
-f. Your Footer (contact information without any logo or icons--we cover those in later parts of this module)
-g. Make all font Black
-h. Serif font (you can use whichever you prefer)
-i. Make sure your 1 element using your custom font prints the custom font! (this can be the h1, list, paragraph, blockquote, or footer!)
-j. adjust the printable margins to be 1" on all sides
-All content must print within a single page. Adjust the layout with the print query to make it fit. */
 
 /*ul li {
             
@@ -250,7 +246,22 @@ All content must print within a single page. Adjust the layout with the print qu
       src: url("https://fonts.googleapis.com/css2?family=Uchen&display=swap") !important;
 }*/
 
+
+
+/* Create a @media query for print for your aboutme.html page, include the following:
+a. Your Name (h1) DONE
+b. Your description about yourself (p) DONE
+d. Your Education Details (ul or ol) DONE
+e. Your Quote (blockquote) DONE
+f. Your Footer (contact information without any logo or icons--we cover those in later parts of this module)
+g. Make all font Black DONE
+h. Serif font (you can use whichever you prefer) DONE
+i. Make sure your 1 element using your custom font prints the custom font! (this can be the h1, list, paragraph, blockquote, or footer!)
+j. adjust the printable margins to be 1" on all sides DONE
+All content must print within a single page. Adjust the layout with the print query to make it fit. */
+
 @media print {
+      
       * {
             background: transparent !important;
             color: #000 !important;
@@ -259,19 +270,56 @@ All content must print within a single page. Adjust the layout with the print qu
             font-family: Georgia, 'Times New Roman', Times, serif !important;
       }
 
-      html, body, .Content {height: 100%;
-                            margin: 1in;}
+      html, body {height: 100%;
+                      margin: 0;}
 
     .header,
-    footer,
+    #trick,
     img {
         display: none;
     }
+   
+   /* title {
+      text-align: left;
+      font-style: bold;
+    } */
+
+    .Content {display: grid;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+      /*grid-template-rows: 20% 20% 20% 20% 20%;*/
+      grid-template-rows: 3% 3% 10% 10% 60%;
+      /*grid-template-columns: 40% 30% 30%;*/
+      /*grid-template-rows: 40% 30% 30%;*/
+      /*grid-template-rows: 5% 25% 25% 45%;*/
+      gap: 0px 0px;
+      grid-auto-flow: row;
+}
+
     #name {
-        margin-bottom: 0;
-        border: none;
-        text-align: center;
-    }
+      grid-column: 2 / 6;
+      grid-row: 1 / 1;
+      font-style: italic;
+      }
+
+      blockquote {
+            grid-column: 1 / 6;
+            grid-row: 2 / 2
+      }
+
+      #degrees {
+            grid-column: 1 / 6;
+            grid-row: 3 / 3;
+      }
+    
+      #origin {
+            grid-column: 1 / 6;
+            grid-row: 4 / 5;
+      }
+
+      #details {
+            grid-column: 1 / 6;
+            grid-row: 5 / 7;
+      }
 
     a[href^="http:"]::after {
         content: " [" attr(href)"]";
@@ -284,6 +332,7 @@ All content must print within a single page. Adjust the layout with the print qu
 
       src: url("https://fonts.googleapis.com/css2?family=Uchen&display=swap") !important;
 } 
+}
 
     /*  #customfont {
             
@@ -294,16 +343,9 @@ All content must print within a single page. Adjust the layout with the print qu
             
 */
 
-}
 
-/* Mobile Devices */
-@media (min-width: 768px) { .header li {float: left;}
-                            .header li a {padding: 20px 30px;}
-                            .header .menu {clear: none;
-                                           float: right;
-                                           max-height: none;}
-                            .header .menu-icon {display: none;}
-                            }
+
+
 
 /* @media (max-width: 350px) {p {font-size: smaller 50%;}}
    @media (max-width: 850px) {p {font-size: larger 25%;}}
