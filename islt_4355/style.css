@@ -59,14 +59,14 @@ html, body, .Content {height: 100%;
       color: green;
   }
 
-  #Image {
+  /*#Image {
       grid-column: 2 / 4;
       grid-row: 2 / 3;
-  }
+  }*/
 
   #resumevideo {
-      grid-column: 2 / 4;
-      grid-row: 3 / 4;
+      grid-column: 1 / 3;
+      grid-row: 2 / 3;
   }
 
   blockquote {
@@ -120,6 +120,7 @@ footer {
       }
 
       footer {
+            background-image: url("https://www.jopaz.com.au/wp-content/uploads/2017/08/footer-background.jpg");
             margin-top: 1.25em;
             font-size: 90%;
             /*text-align: bottom;*/
@@ -131,6 +132,7 @@ footer {
 
 
 /* GRID DISPLAY FUNCTION FOR INDEX.HTML */
+
      .mainindex {height: 100%;
                   margin: 0;}
      .mainindex  {display: grid;
@@ -181,7 +183,6 @@ footer {
       grid-row: 6 / 6;
       margin: 0;
       font-size: 20px;
-      background-image: url("https://www.jopaz.com.au/wp-content/uploads/2017/08/footer-background.jpg");
      }
 
     /* img {
