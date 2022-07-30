@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <title>About Me</title>
-
+    <link rel="shortcut icon" type="image/png" href="https://www.kanaunghub.com/contents-kh/uploads/2018/08/cropped-favicon.png">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
@@ -115,12 +116,13 @@
          
             <h1 id="name"><em>Del Quentin Bowles</em></h1>
 
-            <div id="Image"><img src="WelcomePicture.pdf" alt="Headshot">
+            <!--<div id="Image"><img src="WelcomePicture.jpg" alt="Headshot">
             </div>
-            
-            <div id="resumevideo"><img src="#resumevideo.vid" alt="ResumeVideo">
+          -->
+            <div id="resumevideo">
+            <!--<embed src="VideoResume.webm" alt="ResumeVideo" width="600" height="200" autoplay="false"></embed>-->
+            <iframe src="https://player.vimeo.com/video/734901157?h=38ddf0ce1c" width="800" height="200" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             </div>
-
             <div id="degrees">
                 <br>
             <ul>
@@ -176,11 +178,40 @@
                   concept of self-improvement fascinating as the very idea varies infinitely
                   depending on which aspects in life an individual values most. I aim to universalize it.</p>
                 
+                  <style>
+                    /* HOVER ENLARGE EFFECT ON FOOTER ICONS */
+                
+                    .pic {
+                      width:50px;
+                      height:50px;
+                }
+                
+                .bigpic {
+                      position: absolute;
+                      width: 0px;
+                      -webkit-transition:width 0.3s linear 0s;
+                      transition:width 0.3s linear 0s;
+                      z-index:10;
+                }
+                
+                .pic:hover + .bigpic{
+                      width: 200px;
+                }
+                </style>
                   
-            <footer>
-            <p>Website creator: Del Bowles   &copy;2022 <a href="mailto:itisrathergood@gmail.com">itisrathergood@gmail.com</a>
-            </p>
-        </footer>
+                  <footer>
+                    Website creator: Del Bowles   &copy;2022 <a target="_blank" href="https://icons8.com/icon/go4ORlPu42TR/email">Email</a>
+                        icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+            <img class="pic" src="emailicon.png">
+            <img class="bigpic" src="emailicon.png">
+            
+                        <a href="mailto:itisrathergood@gmail.com">itisrathergood@gmail.com</a>
+                        
+            <img class="pic" src="phoneicon.png">
+            <img class="bigpic" src="phoneicon.png">Phone #1-800-365-4295
+                        
+                    
+                </footer>
         </div>
 
           
