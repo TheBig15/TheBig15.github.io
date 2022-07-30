@@ -189,6 +189,34 @@ footer {
       size: 10px 10px;
      } */ 
 
+  /* GRID DISPLAY FUNCTION FOR PPROJECT.HTML */
+
+  .yoda {display: grid;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+      grid-template-rows: 15% 20% 20% 20% 25%;
+      /*grid-template-rows: 5% 20% 5% 10% 60%;*/
+      /*grid-template-columns: 40% 30% 30%;*/
+      /*grid-template-rows: 40% 30% 30%;*/
+      /*grid-template-rows: 5% 25% 25% 45%;*/
+      gap: 0px 0px;
+      grid-auto-flow: row;
+}
+
+      #Teaching {
+      grid-column: 1 / 6;
+      grid-row: 1 / 2;
+}
+
+      #Theory {
+            grid-column: 1 / 6;
+            grid-row: 3 / 3;
+      }
+
+      #Internship {
+            grid-column: 1 / 6;
+            grid-row: 4 / 5;
+      }
+
  /* NAVIGATION WITH HAMBURGALUR EFFECT */
 
 .header {background-color: lightcyan;
