@@ -4,6 +4,8 @@
                <meta charset="utf-8">
                <meta name="viewport" content="width=device-width,initial-scale=1">
                <title>Reflection</title>
+               <link rel="shortcut icon" type="image/png" href="https://www.kanaunghub.com/contents-kh/uploads/2018/08/cropped-favicon.png">
+
         <!--
             *****************************************************************************
 
@@ -21,12 +23,74 @@
             
             ******************************************************************************
             -->
-<link rel="stylesheet" href="menu.css">
+<!--<link rel="stylesheet" href="menu.css">-->
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="nav.css">
+<!--<link rel="stylesheet" href="nav.css">-->
+
+<style>
+    /* HOVER ENLARGE EFFECT ON FOOTER ICONS */
+
+    .pic {
+      width:50px;
+      height:50px;
+}
+
+.bigpic {
+      position: absolute;
+      width: 0px;
+      -webkit-transition:width 0.3s linear 0s;
+      transition:width 0.3s linear 0s;
+      z-index:10;
+}
+
+.pic:hover + .bigpic{
+      width: 200px;
+}
+</style>
+
 </head>
+
 <body>
+
     <header class="header">
+    
+        <a href="Captain'sLog.html" class="logo"><em>Guts</em>, <strong>Stamina,</strong> Faith</a>
+        
+    
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+    
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        
+        <ul class="menu">
+        
+            <li><a href="PProject.html">Projects</a> </li>
+    
+    
+       <!--   <ol>
+    
+                <li><a href="#One.html">One</a> </li>
+                
+                <li><a href="#Two.html">Two</a> </li>
+    
+                <li><a href="#Three.html">Three</a> </li>
+    
+            </ol>
+        -->
+        
+    
+            <li> <a href="aboutme.html">About Me</a> </li>
+    
+            <li> <a href="index.html">Home</a>     </li>
+            
+            <li> <a href="Reflection.html">Reflection</a> </li>
+    
+            <li> <a href="#">Contact</a>                  </li>
+    
+                </ul>
+      
+            </header>
+
+    <!--<header class="header">
     <a href="/" class="logo">I Can</a>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
@@ -44,14 +108,22 @@
                         <li><a href= "#contact">Contact</a></li>
                         </ul>
                     
-        </header>
-        <br><br><br><br><br>
-    <h2>Personal Reflection</h2>
-    <blockquote> "The whole purpose of education is to turn mirrors into windows."
-        <em>-Syndney J. Harris</em></blockquote>
-    <main> 
-    <h3>The Year of the Interviews (2020)</h3>
-    <p> I was interviewed for the suicide prevention organizer 
+        </header>-->
+    
+        <h1 id="trick"> Del Quentin Bowles </h1>
+        
+            <div class="reflectcontent">
+              
+                <div id="personalreflection">
+
+                <h2 id="personalreflectionheader">Personal Reflection</h2>
+    
+                <blockquote id="reflectionblockquote"> "Education is a progressive discovery of our own ignorance."
+                <em>-George Foreman</em></blockquote>
+    
+    <h3 id="interviewtitle">The Year of the Interviews (2020)</h3>
+
+    <p class="indent"> I was interviewed for the suicide prevention organizer 
         with the Community Partnership of the Ozarks (CPO) organization; the interview was 
         conducted via zoom. This was my first virtual interview where I experienced what that 
         felt like and how to communicate my strengths and skills through the computer’s 
@@ -64,12 +136,16 @@
         professional in-person experience. Although I did not end up being hired for any of these 
         positions due to my lack of experience in the medical field, I have learned how to connect 
         with professionals better through open and honest communication.
- <br /> Soon after this, I decided to reassess my career goals and began searching for a position that
+  Soon after this, I decided to reassess my career goals and began searching for a position that
         I was truly passionate for. Additionally, I discovered that I was still hungry to learn more
         and started conducting research on graduate school programs. It was through my curiosity to
         learn that I revealed my enthusiasm for teaching.
-    </p>    
-    <h3>Retail Associate Experience</h3>
+    </p>
+                </div>
+
+                <div id="retailreflection">
+
+    <h3 id="retailtitle">Retail Associate Experience</h3>
 <p class="indent"> I worked at Hibbett Sports in West Plains, Missouri for five years 
         from 2016 to 2021. I specialized in customer service, store organization, and managerial 
         operations. Practicing interpersonal communication in that department becomes a way of life. 
@@ -81,7 +157,11 @@
         continued to complement the quality of my customer service. At the end of those years, I parted
         ways with the sports store because I wanted to become actively involved in education.
     </p>
-    <h3>Two Years of Manual Labor</h3>
+    </div>
+
+    <div id="laborreflection">
+
+    <h3 id="labortitle">Two Years of Manual Labor</h3>
 <p class="indent"> From 2014 to 2016, I worked at the West Plains Country 
         Club doing golf course maintenance. During this job, I raked the bunkers, line trimmed, mowed 
         the rough, and mowed tees and approaches. This gave me experience handling moderate to 
@@ -90,7 +170,11 @@
         early and the physical demands conditioned my body. However, my career aspirations inevitably
         guided me toward an occupation with more upward mobility.
     </p>
-    <h3>Becoming a Professor</h3>
+    </div>
+
+    <div id="professorreflection">
+
+    <h3 id="professortitle">Becoming a Professor</h3>
 <p class="indent"> If there are two things in life that I know with utmost certainty, they are 
         that I love to learn and I love to teach. As if participating in graduate school was not enough, I 
         have a habit of looking for lessons wherever I go. My passion for learning reflects the continuing 
@@ -104,10 +188,23 @@
         improvement encourages me because we all have a personal journey with it. In conclusion, I 
         believe the more we strive to understand each other, the closer we come to attaining it.
     </p>
-    </main>
-<footer>       Del Bowles
-<br />         dqbz72@mail.missouri.edu
-<br />         &copy; Copyright 2022
+    
+            </div>
+            </div>
+<footer>       Website creator: Del Bowles   &copy;2022 <a target="_blank" href="https://icons8.com/icon/go4ORlPu42TR/email">Email</a>
+                icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    <img class="pic" src="emailicon.png">
+    <img class="bigpic" src="emailicon.png">
+    
+                <a href="mailto:itisrathergood@gmail.com">itisrathergood@gmail.com</a>
+                
+    <img class="pic" src="phoneicon.png">
+    <img class="bigpic" src="phoneicon.png">Phone #1-800-365-4295
+
 </footer>
+
+</div>
+
 </body>
+
 </html>

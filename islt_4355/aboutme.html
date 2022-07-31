@@ -26,9 +26,28 @@
 
     <link href="WelcomePicture.pdf" rel="image">
 
-  </head>
-
+    <style>
+      /* HOVER ENLARGE EFFECT ON FOOTER ICONS */
+  
+      .pic {
+        width:50px;
+        height:50px;
+  }
+  
+  .bigpic {
+        position: absolute;
+        width: 0px;
+        -webkit-transition:width 0.3s linear 0s;
+        transition:width 0.3s linear 0s;
+        z-index:10;
+  }
+  
+  .pic:hover + .bigpic{
+        width: 200px;
+  }
+  </style>
   <style>
+    
     @font-face
      {
       font-family: Uchen;
@@ -39,6 +58,7 @@
       font-family: Uchen, serif;
     }
     </style>
+  </head>
 
 
   <body>
@@ -79,7 +99,7 @@
         
         <ul class="menu">
         
-            <li><a href="PProjects.html">Projects</a> </li>
+            <li><a href="PProject.html">Projects</a> </li>
     
             
             
@@ -95,7 +115,7 @@
             </ol> -->
 
 
-            <li> <a href="About2.html">About Me</a> </li>
+            <li> <a href="aboutme.html">About Me</a> </li>
     
             <li> <a href="index.html">Home</a>     </li>
             
@@ -135,7 +155,7 @@
             </div>
 
            
-            <blockquote>The Whole Point of Education is to Turn Mirrors into Windows -Sydney J. Harris</blockquote>  
+            <blockquote id="aboutmeblockquote">The Whole Point of Education is to Turn Mirrors into Windows -Sydney J. Harris</blockquote>  
             
             
             <div id="origin">
@@ -178,26 +198,7 @@
                   concept of self-improvement fascinating as the very idea varies infinitely
                   depending on which aspects in life an individual values most. I aim to universalize it.</p>
                 
-                  <style>
-                    /* HOVER ENLARGE EFFECT ON FOOTER ICONS */
-                
-                    .pic {
-                      width:50px;
-                      height:50px;
-                }
-                
-                .bigpic {
-                      position: absolute;
-                      width: 0px;
-                      -webkit-transition:width 0.3s linear 0s;
-                      transition:width 0.3s linear 0s;
-                      z-index:10;
-                }
-                
-                .pic:hover + .bigpic{
-                      width: 200px;
-                }
-                </style>
+                  
                   
                   <footer>
                     Website creator: Del Bowles   &copy;2022 <a target="_blank" href="https://icons8.com/icon/go4ORlPu42TR/email">Email</a>

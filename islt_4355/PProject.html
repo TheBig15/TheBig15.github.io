@@ -12,7 +12,26 @@
     
     <link rel="stylesheet" href="style.css">
     
-  
+    <style>
+        /* HOVER ENLARGE EFFECT ON FOOTER ICONS */
+    
+        .pic {
+          width:50px;
+          height:50px;
+    }
+    
+    .bigpic {
+          position: absolute;
+          width: 0px;
+          -webkit-transition:width 0.3s linear 0s;
+          transition:width 0.3s linear 0s;
+          z-index:10;
+    }
+    
+    .pic:hover + .bigpic{
+          width: 200px;
+    }
+    </style>
   
   </head>
 
@@ -20,7 +39,7 @@
 
     <header class="header">
     
-        <a href="/" class="logo"><em>Guts</em>, <strong>Stamina,</strong> Faith</a>
+        <a href="Captain'sLog.html" class="logo"><em>Guts</em>, <strong>Stamina,</strong> Faith</a>
         
     
         <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -29,7 +48,7 @@
         
         <ul class="menu">
         
-            <li><a href="PProjects.html">Projects</a> </li>
+            <li><a href="PProject.html">Projects</a> </li>
     
     
        <!--   <ol>
@@ -171,7 +190,7 @@ Internship Article
 </div>
 
     <div id="Internship">
-<br>
+
     <h3 class="headings">Internship in Health Science 4975</h3>
     
     <p class="projectparagraphs">I worked with a team of undergraduates and collaborated online during the pandemic to explore
@@ -186,29 +205,8 @@ Internship Article
     cyberpersonality.
 </p>
 </div>
-
-    <style>
-        /* HOVER ENLARGE EFFECT ON FOOTER ICONS */
     
-        .pic {
-          width:50px;
-          height:50px;
-    }
-    
-    .bigpic {
-          position: absolute;
-          width: 0px;
-          -webkit-transition:width 0.3s linear 0s;
-          transition:width 0.3s linear 0s;
-          z-index:10;
-    }
-    
-    .pic:hover + .bigpic{
-          width: 200px;
-    }
-    </style>
-    
-        <footer>
+        <footer id="projectfooter">
             Website creator: Del Bowles   &copy;2022 <a target="_blank" href="https://icons8.com/icon/go4ORlPu42TR/email">Email</a>
                 icon by <a target="_blank" href="https://icons8.com">Icons8</a>
     <img class="pic" src="emailicon.png">

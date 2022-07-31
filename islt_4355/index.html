@@ -35,6 +35,26 @@
 <!--<link rel="stylesheet" href="superstyle.css">-->
 <!--<link rel="stylesheet" href="nav.css">-->
 
+<style>
+    /* HOVER ENLARGE EFFECT ON FOOTER ICONS */
+
+    .pic {
+      width:50px;
+      height:50px;
+}
+
+.bigpic {
+      position: absolute;
+      width: 0px;
+      -webkit-transition:width 0.3s linear 0s;
+      transition:width 0.3s linear 0s;
+      z-index:10;
+}
+
+.pic:hover + .bigpic{
+      width: 200px;
+}
+</style>
 
     
 </head>
@@ -50,7 +70,7 @@
         
         <ul class="menu">
         
-            <li><a href="PProjects.html">Projects</a> </li>
+            <li><a href="PProject.html">Projects</a> </li>
     
             
             
@@ -66,13 +86,13 @@
             </ol> -->
 
 
-            <li> <a href="About2.html">About Me</a> </li>
+            <li> <a href="aboutme.html">About Me</a> </li>
     
             <li> <a href="index.html">Home</a>     </li>
             
             <li> <a href="Reflection.html">Reflection</a> </li>
     
-            <li> <a href="#">Contact</a>                  </li>
+            <li> <a href="contact.html">Contact</a>  </li>
     
                 </ul>
       
@@ -114,7 +134,7 @@
     <div id="indexheadshot"><img src="WelcomePicture.jpg" alt="Headshot"></div>
 
     
-    <blockquote id="indexblockquote"> "The whole purpose of education is to turn mirrors<br /><br> into windows."<em>-Syndney J. Harris</em></blockquote>
+    <blockquote id="indexblockquote"> "The whole purpose of education is to turn mirrors into windows."<em>-Syndney J. Harris</em></blockquote>
     
 
     
@@ -134,26 +154,7 @@ acquiring my Master's of Science, I plan on working at the Missouri State Univer
 </p>
 
 </div>
-<style>
-    /* HOVER ENLARGE EFFECT ON FOOTER ICONS */
 
-    .pic {
-      width:50px;
-      height:50px;
-}
-
-.bigpic {
-      position: absolute;
-      width: 0px;
-      -webkit-transition:width 0.3s linear 0s;
-      transition:width 0.3s linear 0s;
-      z-index:10;
-}
-
-.pic:hover + .bigpic{
-      width: 200px;
-}
-</style>
 
     <footer id="indexfooter">
         Website creator: Del Bowles   &copy;2022 <a target="_blank" href="https://icons8.com/icon/go4ORlPu42TR/email">Email</a>
