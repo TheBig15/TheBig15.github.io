@@ -357,7 +357,7 @@ footer {
 
   .contactgrid {display: grid;
       grid-template-columns: 20% 20% 20% 20% 20%;
-         grid-template-rows: 10% 20% 10% 20% 5%;
+         grid-template-rows: 10% 20% 24% 32% 5%;
       gap: 0px 0px;
       grid-auto-flow: row;
       height: 100%;
@@ -379,7 +379,35 @@ footer {
 
       table {
             grid-column: 1 / 6;
-            grid-row: 2 / 3;
+            grid-row: 2 / 2;
+      }
+
+      form {
+            grid-column: 1 / 6;
+            grid-row: 3 / 3;
+            margin-top: 60px;
+            text-align: center;
+      }
+
+      input {
+            font-size: 27px;
+            padding-right: 40px;
+            margin-top: 5px;
+      }
+
+      textarea {
+            font-size: 28px;
+            padding-left: 52px;
+            margin-top: 10px;
+      }
+
+      label {
+            font-style: bolder;
+            letter-spacing: 2px;
+            }
+
+      button {
+            font-size: 25px;
       }
 
       #contactblockquote {
@@ -389,11 +417,12 @@ footer {
             font-style: italic;
             font-weight: bolder;
             font-size: 28px;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
             padding-top: 25px;
+            padding-bottom: 55px;
             color: seagreen;
             border: dotted 4px skyblue;
-            
+            margin-top: 180px;
       }
 
       #contactfooter {
@@ -402,6 +431,14 @@ footer {
             margin: 0;
             font-size: 20px;
            }
+
+      #middlename {
+            padding-left: 22px;
+      }
+
+      #email {
+            margin-left: 46px;
+      }
 
                               /* TABLE STYLING */
 
