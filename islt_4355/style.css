@@ -44,11 +44,8 @@ html, body, .Content {height: 100%;
 
 .Content {display: grid;
       grid-template-columns: 20% 20% 20% 20% 20%;
-      /*grid-template-rows: 20% 20% 20% 20% 20%;*/
+       /*grid-template-rows: 20% 20% 20% 20% 20%;*/
       grid-template-rows: 5% 20% 5% 10% 60%;
-      /*grid-template-columns: 40% 30% 30%;*/
-      /*grid-template-rows: 40% 30% 30%;*/
-      /*grid-template-rows: 5% 25% 25% 45%;*/
       gap: 0px 0px;
       grid-auto-flow: row;
 }
@@ -110,8 +107,6 @@ html, body, .Content {height: 100%;
 /* FOOTER STYLING */
 
 footer {
-      grid-column: 1 / 6;
-      grid-row: 6 / 6;
       background-color: lightgrey;
       text-align: center;
       border: 5px dotted green;
@@ -123,7 +118,6 @@ footer {
             background-image: url("https://www.jopaz.com.au/wp-content/uploads/2017/08/footer-background.jpg");
             margin-top: 1.25em;
             font-size: 90%;
-            /*text-align: bottom;*/
             text-align: center;
       }
 
@@ -189,55 +183,94 @@ footer {
       size: 10px 10px;
      } */ 
 
+  
+
   /* GRID DISPLAY FUNCTION FOR PPROJECT.HTML */
 
      
 
   .yoda {display: grid;
       grid-template-columns: 20% 20% 20% 20% 20%;
-      grid-template-rows: 15% 20% 20% 20% 25%;
-      /*grid-template-rows: 5% 20% 5% 10% 60%;*/
-      /*grid-template-columns: 40% 30% 30%;*/
-      /*grid-template-rows: 40% 30% 30%;*/
-      /*grid-template-rows: 5% 25% 25% 45%;*/
-      gap: 0px 0px;
+      grid-template-rows: 20% 30% 20% 30% 20% 30%;
+      gap: 20px;
       grid-auto-flow: row;
   }
 
-      .headings {
-            text-align: center;
-            letter-spacing: 10px;
-            font-style: italic;
-            font-size: 22px;
-            color: blue;
+      #schoollist {
+            grid-column: 3 / 6;
+            grid-row: 1 / 1;
+            margin-left: 10px;
+            letter-spacing: 3px;
+            line-height: 30px;
       }
 
-      .projectparagraphs {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 18px;
-            word-spacing: 2px;
-      }
-
-      #rural {
-            grid-column: 3 / 3;
-            grid-row: 2 / 3;
+      #school {
+            grid-column: 1 / 3;
+            grid-row: 1 / 1;
+            background-color:aqua;
       }
 
       #Teaching {
       grid-column: 1 / 6;
-      grid-row: 2 / 3;
+      grid-row: 2 / 2;
 }
 
+      #theorypic {
+            grid-column: 1 / 3;
+            grid-row: 3 / 3;
+            background-color: aqua;
+      }
+
+      #theorylist {
+            grid-column: 3 / 6;
+            grid-row: 3 / 3;
+            padding-left: 10px;
+            letter-spacing: 3px;
+            line-height: 30px;
+      }
 
       #Theory {
             grid-column: 1 / 6;
-            grid-row: 4 / 5;
+            grid-row: 4 / 4;
+      }
+
+      #internshippic {
+            grid-column: 1 / 3;
+            grid-row: 5 / 5;
+            background-color: blue;
+      }
+
+      #internshiplist {
+            grid-column: 3 / 6;
+            grid-row: 5 / 5;
       }
 
       #Internship {
             grid-column: 1 / 6;
-            grid-row: 5 / 6;
+            grid-row: 5 / 5;
+                   /* 6 / 7; */
       }
+
+ 
+ 
+      /* PROJECT HEADINGS AND PARAGRAPHS FORMATTING */
+  
+  .headings {
+      text-align: center;
+      letter-spacing: 10px;
+      font-style: italic;
+      font-size: 22px;
+      color: blue;
+}
+
+.projectparagraphs {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 18px;
+      word-spacing: 5px
+}
+
+
+
 
  /* NAVIGATION WITH HAMBURGALUR EFFECT */
 
