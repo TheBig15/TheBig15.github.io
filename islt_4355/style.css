@@ -266,7 +266,7 @@ footer {
       word-spacing: 5px
 }
 
- /* GRID DISPLAY FOR REFLECTION html*/
+ /* GRID DISPLAY FOR REFLECTION.HTML */
 
       .reflectcontent {display: grid;
                   grid-template-columns: 20% 20% 20% 20% 20%;
@@ -352,6 +352,105 @@ footer {
                   margin: 20px;
                   font-size: 20px
             }
+
+ /* GRID DISPLAY FOR CONTACT.HTML */
+
+  .contactgrid {display: grid;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+         grid-template-rows: 10% 20% 10% 20% 5%;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      height: 100%;
+}
+
+      #tableheader {
+            grid-column: 2 / 5;
+            grid-row: 1 / 1;
+            color: violet;
+            font-weight: bold;
+      }
+
+      caption {
+            grid-column: 2 / 5;
+            grid-row: 2 / 2;
+            color: green;
+            font-size: 27px;
+      }
+
+      table {
+            grid-column: 1 / 6;
+            grid-row: 2 / 3;
+      }
+
+      #contactblockquote {
+            grid-column: 1 / 6;
+            grid-row: 4 / 4;
+            text-align: center;
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 28px;
+            letter-spacing: 2px;
+            padding-top: 25px;
+            color: seagreen;
+            border: dotted 4px skyblue;
+            
+      }
+
+      #contactfooter {
+            grid-column: 1 / 6;
+            grid-row: 6 / 6;
+            margin: 0;
+            font-size: 20px;
+           }
+
+                              /* TABLE STYLING */
+
+      caption {
+            font-style: oblique;
+            letter-spacing: 1px;
+            padding-bottom: 10px;
+      }
+
+      table {
+            /*border-collapse: collapse;*/
+            width: 100%;
+            height: 100%;
+            font-size: 19px;
+      }
+
+      table, th, td {
+            border: 1px solid blue;
+            border-collapse: collapse;
+      }
+
+      /*th, td {
+            padding: 10px;
+      }*/
+
+      table th {
+            text-align: center;
+            background-color: purple;
+            color: #FFF;
+            padding: 4px 30px 4px 8px;
+      }
+
+      table td {
+            text-align: center;
+            /*border: 1px solid blue;*/
+            padding: 4px 8px;
+      }
+      
+      table tr:nth-child(even) td {
+            background-color: #e7edf0;
+      }
+
+      .shift {
+            padding-right: 30px;
+      }
+
+      #tableheader {
+            text-align: center;
+      }
 
 
  /* NAVIGATION WITH HAMBURGALUR EFFECT */
@@ -487,6 +586,8 @@ footer {
       font-style: bold;
     } */
 
+    /* PRINT FORMATTING FOR ABOUTME.HTML */
+
     .Content {display: grid;
       grid-template-columns: 20% 20% 20% 20% 20%;
       /*grid-template-rows: 20% 20% 20% 20% 20%;*/
@@ -534,8 +635,11 @@ footer {
       font-family: 'Uchen', serif !important;
 
       src: url("https://fonts.googleapis.com/css2?family=Uchen&display=swap") !important;
-} 
 }
+}
+
+
+      
 
     /*  #customfont {
             

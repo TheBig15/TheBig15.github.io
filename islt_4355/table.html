@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+            <title>Table Prototype</title>
+            <link rel="shortcut icon" type="image/png" href="https://www.kanaunghub.com/contents-kh/uploads/2018/08/cropped-favicon.png">
+            <link rel="stylesheet" href="style.css">
+            <style>
+                /* HOVER ENLARGE EFFECT ON FOOTER ICONS */
+            
+                .pic {
+                  width:50px;
+                  height:50px;
+            }
+            
+            .bigpic {
+                  position: absolute;
+                  width: 0px;
+                  -webkit-transition:width 0.3s linear 0s;
+                  transition:width 0.3s linear 0s;
+                  z-index:10;
+            }
+            
+            .pic:hover + .bigpic{
+                  width: 200px;
+            }
+            </style>
+        
+        
+</head>
+
+<body>
+
+<h1 id="tableheader">My First Table</h1>
+
+    <table>
+        <thead>
+        <caption><strong>Status</strong></caption>
+        </thead>
+        <tbody>
+        <tr>
+            <th>
+                Contact Name
+            </th>
+            <th>
+                Gender
+            </th>
+            <th>
+                Phone Number
+            </th>
+            <th>
+                Email
+            </th>
+        </tr>
+        <tr>
+            <td id="shift">
+                Del Q. Bowles
+            </td>
+            <td id="shift">
+                Male
+            </td>
+            <td id="shift">
+                1-800-595-2735
+            </td>
+            <td>
+                itisrathergood@gmail.com
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+</body>
